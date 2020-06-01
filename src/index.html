@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>НФП-2009</title>
 </head>
+
 <body>
     <!-- Start your project here-->
-    <div style="height: 100vh">
+    <div style="height: 100vh;">
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
                     <div class="text-center">
-                        <h1 class="mt-5">Оценка физической подготовки в ВС РФ </h1>
+                        <h1 class="mt-5">Оценка физической подготовки в ВС РФ</h1>
                     </div>
                     <label for="militaryСategory" class="mt-3">
                         <h3>Выберите категорию военнослужащих:</h3>
                     </label>
-                    <select id="militaryСategory" class="browser-default custom-select custom-select-sm ">
-                        <option value="0" disabled >Категории военнослужащих</option>
-                        <option value="1">Кандидаты в военно-учебные заведения из числа
-                            гражданской молодежи и
-                            военнослужащих</option>
+                    <select id="militaryСategory" class="browser-default custom-select custom-select-sm">
+                        <option value="0" disabled>Категории военнослужащих</option>
+                        <option value="1">Кандидаты в военно-учебные заведения из числа гражданской
+                            молодежи и военнослужащих</option>
                         <option value="2">Новое пополнение воинских частей</option>
-                        <option value="3">Военнослужащие по призыву до 6 месяцев, курсанты 1-го курса</option>
+                        <option value="3">Военнослужащие по призыву до 6 месяцев, курсанты 1-го
+                            курса</option>
                         <option value="4">Военнослужащие по призыву после 6 месяцев</option>
                         <option value="5">Курсанты 2-го курса</option>
                         <option value="6">Курсанты 3-го курса и старше</option>
-                        <option value="7">Военнослужащие по контракту 1 возрастной
-                            группы (до 25 лет)</option>
-                        <option value="8" selected>Военнослужащие по контракту 2 возрастной
-                            группы (25 - 29)</option>
-                        <option value="9">Военнослужащие по контракту 3 возрастной
-                            группы (30 - 34)</option>
-                        <option value="10">Военнослужащие по контракту 4 возрастной
-                            группы (35 - 39)</option>
-                        <option value="11">Военнослужащие по контракту 5 возрастной
-                            группы (40 - 44)</option>
-                        <option value="12">Военнослужащие по контракту 6 возрастной
-                            группы (45 - 49)</option>
-                        <option value="13">Военнослужащие по контракту 7 возрастной
-                            группы (50 - 54)
+                        <option value="7">Военнослужащие по контракту 1 возрастной группы (до 25
+                            лет)</option>
+                        <option value="8" selected>Военнослужащие по контракту 2 возрастной группы (25 -
+                            29)</option>
+                        <option value="9">Военнослужащие по контракту 3 возрастной группы (30 -
+                            34)</option>
+                        <option value="10">Военнослужащие по контракту 4 возрастной группы (35 -
+                            39)</option>
+                        <option value="11">Военнослужащие по контракту 5 возрастной группы (40 -
+                            44)</option>
+                        <option value="12">Военнослужащие по контракту 6 возрастной группы (45 -
+                            49)</option>
+                        <option value="13">Военнослужащие по контракту 7 возрастной группы (50 - 54)
                         </option>
-                        <option value="14">Военнослужащие по контракту 8 возрастной
-                            группы (55 лет и старше)</option>
-                        <option value="15">Кандидаты в военно-учебные заведения из числа
-                            гражданской молодежи и военнослужащих женского пола</option>
-                        <option value="16">Военнослужащие женского пола 1 возрастной
-                            группы (до 25 лет)</option>
-                        <option value="17">Военнослужащие женского пола 2 возрастной
-                            группы (25 - 29)</option>
-                        <option value="18">Военнослужащие женского пола 3 возрастной
-                            группы (30 – 34)</option>
-                        <option value="19">Военнослужащие женского пола 4 возрастной
-                            группы (35 – 39)</option>
-                        <option value="20">Военнослужащие женского пола 5 возрастной
-                            группы (40 – 44)</option>
-                        <option value="21">Военнослужащие женского пола 6 возрастной
-                            группы (45 лет и старше)</option>
+                        <option value="14">Военнослужащие по контракту 8 возрастной группы (55 лет и
+                            старше)</option>
+                        <option value="15">Кандидаты в военно-учебные заведения из числа гражданской
+                            молодежи и военнослужащих женского пола</option>
+                        <option value="16">Военнослужащие женского пола 1 возрастной группы (до 25
+                            лет)</option>
+                        <option value="17">Военнослужащие женского пола 2 возрастной группы (25 -
+                            29)</option>
+                        <option value="18">Военнослужащие женского пола 3 возрастной группы (30 –
+                            34)</option>
+                        <option value="19">Военнослужащие женского пола 4 возрастной группы (35 –
+                            39)</option>
+                        <option value="20">Военнослужащие женского пола 5 возрастной группы (40 –
+                            44)</option>
+                        <option value="21">Военнослужащие женского пола 6 возрастной группы (45 лет и
+                            старше)</option>
                     </select>
                     <label for="select" class="mt-3">
-                        <h3>Выберите категорию (при необходимости) в зависимости от особенностей военно-профессиональной деятельности:</h3>
+                        <h3>
+                            Выберите категорию (при необходимости) в зависимости от
+                            особенностей военно-профессиональной деятельности:
+                        </h3>
                     </label>
-                    <select id="professionalCategory" class="browser-default custom-select custom-select-sm ">
+                    <select id="professionalCategory" class="browser-default custom-select custom-select-sm">
                         <option value="0" disabled>Категории военно-профессиональной деятельности</option>
-                        <option value="1">Категория № 1: военнослужащие подразделений специального назначения,
-                             разведывательных, воздушно-десантных, десантно-штурмовых и морской пехоты</option>
-                        <option value="2" selected>Категория № 2: личный состав основных подразделений и подразделений боевого обеспечения (кроме указанных в категории N 1)
-                             воинских частей видов (родов войск) Вооруженных Сил, управления соединений, воинских частей; слушатели и курсанты вузов</option>
-                        <option value="3">Категория № 3: военнослужащие подразделений материального, технического и медицинского обеспечения, ремонта и обслуживания,
-                             соединений (бригад) надводных кораблей и подводных лодок, военных оркестров, переменный состав учебных воинских частей
-                              (военнослужащие по контракту - курсанты). Военнослужащие, проходящие военную службу в органах военного управления (от управления объединения и выше),
-                               в организациях Вооруженных Сил</option>
+                        <option value="1">Категория № 1: военнослужащие подразделений специального
+                            назначения, разведывательных, воздушно-десантных,
+                            десантно-штурмовых и морской пехоты</option>
+                        <option value="2" selected>Категория № 2: личный состав основных подразделений и
+                            подразделений боевого обеспечения (кроме указанных в категории N
+                            1) воинских частей видов (родов войск) Вооруженных Сил,
+                            управления соединений, воинских частей; слушатели и курсанты
+                            вузов</option>
+                        <option value="3">Категория № 3: военнослужащие подразделений материального,
+                            технического и медицинского обеспечения, ремонта и обслуживания,
+                            соединений (бригад) надводных кораблей и подводных лодок,
+                            военных оркестров, переменный состав учебных воинских частей.</option>
                     </select>
 
-                    <hr>
+                    <hr />
                     <h3 class="mt-4">Введите результаты выполнения упражнений:</h3>
-                    <hr>
-                    <h4 class="mt-3 font-weight-bolder">Ловкость:</h4>
+                    <hr />
+                    <!-- <h4 class="mt-3 font-weight-bolder">Ловкость:</h4>
                     <select id="agilityExercise" class="custom-select custom-select-sm">
                         <option value="" disabled selected>Выберите упражнение на ловкость</option>
                         <option value="14">Упражнение № 14: Прыжок согнув ноги через коня (козла) в ширину
@@ -96,15 +104,15 @@
                         <option value="64j">Упражнение № 64ж: Акробатическое упражнение</option>
                     </select>
                     <label for="agility" class="mt-2">Результат</label>
-                    <input type="number" id="agility" class="form-control">
-                    <hr>
+                    <input type="number" id="agility" class="form-control" value="0">
+                    <hr> -->
                     <h4 class="mt-3 font-weight-bolder">Сила:</h4>
                     <select id="strengthExercise" class="custom-select custom-select-sm">
                         <option value="" disabled>Выберите упражнение на силу</option>
-                        <option value="1" selected>Упражнение № 1: Сгибание и разгибание рук в упоре лежа</option>
-                        <option value="2">Упражнение № 2: Наклон туловища вперед</option>
-                        <option value="4">Упражнение № 4: Подтягивание на перекладине</option>
-                        <option value="5">Упражнение № 5: Поднимание ног к перекладине</option>
+                        <option value="1">Упражнение № 1: Сгибание и разгибание рук в упоре лежа</option>
+                        <!-- <option value="2">Упражнение № 2: Наклон туловища вперед</option> -->
+                        <option value="4" selected>Упражнение № 4: Подтягивание на перекладине</option>
+                        <!-- <option value="5">Упражнение № 5: Поднимание ног к перекладине</option>
                         <option value="6">Упражнение № 6: Подъем переворотом на перекладине</option>
                         <option value="7">Упражнение № 7: Подъем силой на перекладине</option>
                         <option value="8">Упражнение № 8: Жим штанги лежа</option>
@@ -113,80 +121,89 @@
                         <option value="11">Упражнение № 11: Рывок гири</option>
                         <option value="12">Упражнение № 12: Толчок двух гирь</option>
                         <option value="13">Упражнение № 13: Толчок двух гирь по длинному циклу</option>
-                        <option value="62j">Упражнение № 62ж: Приседание</option>
+                        <option value="62j">Упражнение № 62ж: Приседание</option> -->
                     </select>
                     <label for="strength" class="mt-2">Результат</label>
-                    <input type="number" id="strength" class="form-control">
-                    <hr>
+                    <input type="number" id="strength" class="form-control" value="20" />
+                    <hr />
                     <h4 class="mt-3 font-weight-bolder">Быстрота:</h4>
                     <select id="rapidityExercise" class="custom-select custom-select-sm">
-                        <option value="" disabled selected>Выберите упражнение на быстроту</option>
-                        <option value="40">Упражнение № 40: Бег на 60 м</option>
-                        <option value="41">Упражнение № 41: Бег на 100 м</option>
-                        <option value="42">Упражнение № 42: Челночный бег 10 х 10 м</option>
-                        <option value="57">Упражнение № 57: Плавание на 100 м в спортивной форме вольным стилем</option>
+                        <option value="" disabled>Выберите упражнение на быстроту</option>
+                        <!-- <option value="40">Упражнение № 40: Бег на 60 м</option>
+                        <option value="41">Упражнение № 41: Бег на 100 м</option> -->
+                        <option value="42" selected>Упражнение № 42: Челночный бег 10 х 10 м</option>
+                        <!-- <option value="57">Упражнение № 57: Плавание на 100 м в спортивной форме вольным стилем</option>
                         <option value="57a">Упражнение № 57а: Плавание на 50 м</option>
                         <option value="58">Упражнение № 58: Плавание 100 м в спортивной форме способом брасс</option>
-                        <option value="61j">Упражнение № 61ж: Прыжки со скакалкой</option>
+                        <option value="61j">Упражнение № 61ж: Прыжки со скакалкой</option> -->
                     </select>
                     <label for="rapidity" class="mt-2">Результат</label>
-                    <input type="number" id="rapidity" class="form-control">
-                    <hr>
+                    <input type="number" id="rapidity" class="form-control" value="25.4" />
+                    <hr />
                     <h4 class="mt-3 font-weight-bolder">Выносливость:</h4>
                     <select id="enduranceExercise" class="custom-select custom-select-sm">
-                        <option value="" disabled selected>Выберите упражнение на выносливость</option>
-                        <option value="45">Упражнение № 45: Бег на 1 км</option>
-                        <option value="46">Упражнение № 46: Бег на 3 км</option>
+                        <option value="" disabled>Выберите упражнение на выносливость</option>
+                        <option value="45" selected>Упражнение № 45: Бег на 1 км</option>
+                        <!-- <option value="46">Упражнение № 46: Бег на 3 км</option>
                         <option value="47">Упражнение № 47: Бег на 5 км</option>
                         <option value="53">Упражнение № 53: Лыжная гонка на 5 км</option>
                         <option value="54">Упражнение № 54: Лыжная гонка на 10 км</option>
                         <option value="57b">Упражнение № 57б: Плавание на 500 м (300 м)</option>
                         <option value="43">Упражнение № 43: Бег на 400 м</option>
-                        <option value="44">Упражнение № 44: Челночный бег 4 х 100 м</option>
+                        <option value="44">Упражнение № 44: Челночный бег 4 х 100 м</option> -->
                     </select>
                     <label for="endurance" class="mt-2">Результат</label>
-                    <input type="number" id="endurance" class="form-control">
-                    <hr>
+                    <input type="number" id="endurance" class="form-control" value="4.31" />
+                    <hr />
                     <h4 class="mt-3 font-weight-bolder">Военно-прикладные навыки:</h4>
                     <select id="militaryExercise" class="custom-select custom-select-sm">
                         <option value="" disabled selected>Выберите упражнение на военно-прикладные навыки</option>
                         <option value="24">Упражнение № 24: Обороты на стационарном гимнастическом колесе
                         </option>
                         <option value="25">Упражнение № 25: Обороты вперед и назад на лопинге</option>
-                        <option value="26">Упражнение № 26: Начальный комплекс приемов рукопашного боя (РБ-Н)</option>
-                        <option value="27">Упражнение № 27: Общий комплекс приемов рукопашного боя (РБ-1)</option>
-                        <option value="28">Упражнение № 28: Специальный комплекс приемов рукопашного боя (РБ-2)</option>
-                        <option value="29">Упражнение № 29: Специальный комплекс приемов рукопашного боя (РБ-3)</option>
-                        <option value="32">Упражнение № 32, 39а: Общее контрольное упражнение на единой полосе
-                            препятствий
+                        <option value="26">Упражнение № 26: Начальный комплекс приемов рукопашного боя
+                            (РБ-Н)</option>
+                        <option value="27">Упражнение № 27: Общий комплекс приемов рукопашного боя
+                            (РБ-1)</option>
+                        <option value="28">Упражнение № 28: Специальный комплекс приемов рукопашного боя
+                            (РБ-2)</option>
+                        <option value="29">Упражнение № 29: Специальный комплекс приемов рукопашного боя
+                            (РБ-3)</option>
+                        <option value="32">Упражнение № 32, 39а: Общее контрольное упражнение на единой
+                            полосе препятствий
                         </option>
-                        <option value="33">Упражнение № 33-37: Специальные контрольные упражнения для личного состава
-                            различных
-                            воинских частей</option>
-                        <option value="38">Упражнение № 38: Преодоление единой полосы препятствий в составе
-                            подразделения
+                        <option value="33">Упражнение № 33-37: Специальные контрольные упражнения для
+                            личного состава различных воинских частей</option>
+                        <option value="38">Упражнение № 38: Преодоление единой полосы препятствий в
+                            составе подразделения
                         </option>
-                        <option value="39">Упражнение № 39, 39а: Бег с преодолением полосы препятствий в составе
-                            подразделения
+                        <option value="39">Упражнение № 39, 39а: Бег с преодолением полосы препятствий в
+                            составе подразделения
                         </option>
                         <option value="48">Упражнение № 48: Марш-бросок на 5 км</option>
                         <option value="49">Упражнение № 49: Марш-бросок на 10 км</option>
-                        <option value="50">Упражнение № 50: Бег на 3 км с метанием гранат и стрельбой</option>
+                        <option value="50">Упражнение № 50: Бег на 3 км с метанием гранат и
+                            стрельбой</option>
                         <option value="52">Упражнение № 52: Метание гранаты на дальность</option>
-                        <option value="55">Упражнение № 55: Марш на лыжах в составе подразделения на 5 км</option>
-                        <option value="56">Упражнение № 56: Марш на лыжах в составе подразделения на 10 км</option>
+                        <option value="55">Упражнение № 55: Марш на лыжах в составе подразделения на 5
+                            км</option>
+                        <option value="56">Упражнение № 56: Марш на лыжах в составе подразделения на 10
+                            км</option>
                         <option value="59">Упражнение № 59: Плавание в обмундировании с оружием</option>
                         <option value="60">Упражнение № 60: Ныряние в длину</option>
                     </select>
                     <label for="military" class="mt-2">Результат</label>
-                    <input type="number" id="military" class="form-control">
-                    <hr>
+                    <input type="number" id="military" class="form-control" value="0" />
+                    <hr />
                     <div class="text-center mb-5">
-                        <button id="calculate" class="btn btn-primary mx-auto">Расчитать</button>
+                        <button id="calculate" class="btn btn-primary mx-auto">
+                            Расчитать
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
